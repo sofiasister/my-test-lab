@@ -1,15 +1,6 @@
 from typing import List
 
 def mergeSort(arr: List[int]) -> None:
-    """
-    Sort the given list in ascending order using the merge sort algorithm.
-
-    Args:
-        arr (List[int]): The list of integers to be sorted.
-
-    Returns:
-        None
-    """
     if len(arr) > 1:
         mid = len(arr) // 2
         L = arr[:mid]
