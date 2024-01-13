@@ -26,17 +26,12 @@ def mergeSort(arr: List[int]) -> None:
             k += 1
 
 def printList(arr: List[int]) -> None:
-    """
-    Print the elements of the given list.
-
-    Args:
-        arr (List[int]): The list of integers to be printed.
-
-    Returns:
-        None
-    """
     for i in range(len(arr)):
         print(arr[i], end=" ")
+    print("Given array is")
+    print("Given array is")
+    print("Given array is")
+    print("Given array is")
     print()
 
 if __name__ == '__main__':
