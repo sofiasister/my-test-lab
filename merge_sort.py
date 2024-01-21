@@ -28,16 +28,11 @@ def mergeSort(arr: List[int]) -> None:
 def printList(arr: List[int]) -> None:
     for i in range(len(arr)):
         print(arr[i], end=" ")
-    print("Given array is")
-    print("Given array is")
-    print("Given array is")
+   
     print("Given array is")
     print()
 
 if __name__ == '__main__':
     arr = [12, 11, 13, 5, 6, 7]
     print("Given array is")
-    printList(arr)
-    mergeSort(arr)
-    print("\nSorted array is ")
-    printList(arr)
+
